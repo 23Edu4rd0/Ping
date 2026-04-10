@@ -4,7 +4,7 @@ import time
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-WEBSITE_URL = ''
+WEBSITE_URL = 'https://formulario-oi3p.onrender.com/'
 BREAK = 60 * 14 # 14 minutes, substitute fourteen for the number of minutes that you desire
 
 def ping():
