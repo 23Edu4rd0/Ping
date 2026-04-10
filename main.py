@@ -9,7 +9,7 @@ BREAK = 60 * 14 # 14 minutes, substitute fourteen for the number of minutes that
 
 def ping():
     try:
-        response = requests.get(WEBSITE_URL, timeout=10)
+        response = requests.get(WEBSITE_URL, timeout=60)
         logging.info(f'Ping ok - status code: {response.status_code}')
     except Exception as e:
         logging.error(f'Ping error: {e}')
